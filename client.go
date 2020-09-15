@@ -62,7 +62,7 @@ type Client struct {
 }
 
 type contentType string
-
+//contentType explains the header requirement 
 const (
 	contentTypeEmpty          contentType = ""
 	contentTypeJSON           contentType = "application/json"
